@@ -2090,7 +2090,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:after {
-				opacity: 1.0;
+				opacity: 0.0;
 			}
 
 			.image.thumb:hover:before {
@@ -2592,11 +2592,11 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
+		background-attachment: scroll;
 		background-image: url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: auto 104%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
