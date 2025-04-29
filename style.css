@@ -1,0 +1,68 @@
+/* General page background styling */
+body {
+  background-image: url('images/fulls/opening slide.png'); /* adjust if needed */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #000;
+}
+
+/* Main content styling */
+.main-content {
+  max-width: 1000px;                /* Adjust width of center area */
+  margin: 0 auto;
+  padding: 0px 20px 40px 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* White with transparency for readability */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  transform: scale(1.2);          /* Scale up the entire content block */
+  transform-origin: top center;   /* Keep it anchored at the top center */
+margin-left: 100px; 
+  margin-bottom: 100px; /* Adjust the space as needed */
+
+}
+}
+
+/* Optional: make sure images stay proportional */
+.main-content img {
+  max-width: 110%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Optional: larger headers for better visibility */
+.main-content h1 {
+  font-size: 2em;
+}
+
+.main-content h2 {
+  font-size: 1.6em;
+  margin-top: 1em;
+}
+
+.main-content h3 {
+  font-size: 1.3em;
+}
+
+/* Optional: spacing for paragraphs and lists */
+.main-content p {
+  margin-bottom: 1em;
+}
+
+.main-content ul,
+.main-content ol {
+  margin-left: 1.5em;
+  line-height: 1.6;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* or center if you want vertical centering too */
+  min-height: 100vh;
+  flex-direction: column;
+}
