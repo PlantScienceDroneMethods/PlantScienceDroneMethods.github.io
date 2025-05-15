@@ -1,6 +1,6 @@
 /* General page background styling */
 body {
-  background-image: url('images/fulls/opening slide.png'); /* adjust if needed */
+  background-image: url('images/bg.jpg'); /* adjust if needed */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
