@@ -522,5 +522,55 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-	</body>
+<div id="announcement-banner">
+  <div>
+    📢 <strong style="color: black; font-weight: bold;">New preprint!</strong> Available here:
+    <a href="https://www.biorxiv.org/content/10.1101/2025.05.19.654604v1" target="_blank">
+      Parker et al. 2025
+    </a>
+  </div>
+  <div style="margin-top: 1px; font-size: 14px;">
+    This webpage is made possible by those who have cited our work in the past.
+    Please consider dropping us a cite, and thank you for your continued support!!
+  </div>
+  <button onclick="document.getElementById('announcement-banner').style.display='none'">✖</button>
+</div>
+
+    <style>
+      #announcement-banner {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #7d9d50;
+        color: #000;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-family: sans-serif;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        z-index: 1000;
+      }
+
+      #announcement-banner a {
+        color: #003366;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      #announcement-banner button {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: #000;
+      }
+
+      #announcement-banner button:hover {
+        color: red;
+      }
+    </style>
+		</body>
 </html>
